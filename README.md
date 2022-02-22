@@ -1,6 +1,6 @@
 # Python Fundamentals
 
-# About Me
+### About Me
 
 My name is Tim Donnelley. I am a student to programming, an artist, a father, and a leader. I am excited to embark on this new chapter in life.
 
