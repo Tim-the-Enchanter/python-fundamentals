@@ -1,3 +1,4 @@
+
 # 1 Error Correction
 # Code Below
 # Received error message
@@ -31,25 +32,30 @@ print("Hello World")
 # If the implementation is easy to explain, it may be a good idea.
 # Namespaces are one honking great idea -- let's do more of those!
 
+
 # 3 2-1
 # Code Below
 # added variable "message"
 # added print function to display "Hello Python Classroom" value as output
 # changed value to "Hello Python World"
+
 message = "Hello Python Classroom!"
 print(message)
 message = "Hello Python World!"
 print(message)
 
+
 # Playing with Code Below
 # added variable "affirm"
 # added print function to display "Roger Roger" value as output
+
 affirm = "Roger Roger!"
 print(affirm)
 
 
 # 4 8-1
 # I defined a function to display a doc string and print the doc string by calling the function.
+
 def display_message():
     """Display a simple message."""
     print("I am learning how to define a function.")
@@ -69,6 +75,7 @@ display_message()
 # NameError: name 'title' is not defined. Did you mean: 'tuple'?
 # Finally figured out I had been missing the correct print function.
 # Went back and re read the chapters to see what I missed.
+
 
 def favorite_book(book_name):
     """display my favorite book"""
