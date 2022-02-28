@@ -12,6 +12,7 @@ def my_function():
 # To run the function, you must call it by name.
 my_function()
 
+
 # When defining a function with arguments, those arguments go in beteween
 # the parenthesis and separated by commas.
 def my_other(arg1, arg2):
