@@ -8,6 +8,8 @@
 
 print("Hello World")
 
+import this
+
 # 2 Zen Output
 
 # Try It yourself 2-11 >import this returned :

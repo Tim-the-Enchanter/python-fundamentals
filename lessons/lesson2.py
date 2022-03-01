@@ -13,7 +13,7 @@ def my_function():
 my_function()
 
 
-# When defining a function with arguments, those arguments go in beteween
+# When defining a function with arguments, those arguments go in between
 # the parenthesis and separated by commas.
 def my_other(arg1, arg2):
     print(arg1)
