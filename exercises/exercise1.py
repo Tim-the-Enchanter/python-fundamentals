@@ -1,8 +1,10 @@
 
-# 1 Error Correction
-# Code Below
-# Received error message
-# PEP 8: W292 no newline at end of file
+# 1 Error Correction, 1 Warning
+
+# Error: Missing closing quote ["]
+# Letting me know there was a missing double quote.
+
+# Warning: PEP 8: W292 no newline at end of file
 # letting me know that there was no new line.
 # Also, hitting "enter" or "return" in the middle of a sentence intuitively added a hash mark.
 
