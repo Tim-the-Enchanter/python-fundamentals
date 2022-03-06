@@ -65,6 +65,7 @@ print(left)
 class MyFirstClass:
     name= 'Tim'
 
+# This is a method instead of a function
     def something(self):
         print('something')
 
