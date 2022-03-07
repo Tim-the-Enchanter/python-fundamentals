@@ -157,7 +157,7 @@ def logical_not(num1, num2):
 
 
 # Identity Operators
-# These operators check to see if the object is the saem in memory
+# These operators check to see if the object is the same in memory
 def identity_is_not(arg1, arg2, arg3):
     # is
     result1 = arg1 is arg2
