@@ -106,7 +106,6 @@ color_test4()
 # bool method. Call the method and use the below values as your argument. Using comments,
 # provide the name of the argument and if it was true or false from running the code.
 
-
 a = 12
 b = 1.2
 c = 0
