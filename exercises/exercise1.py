@@ -13,7 +13,6 @@ print("Hello World")
 # import this
 
 # 2 Zen Output
-
 # Try It yourself 2-11 >import this returned :
 # The Zen of Python, by Tim Peters
 # Beautiful is better than ugly.
