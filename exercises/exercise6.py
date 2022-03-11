@@ -18,8 +18,8 @@ def color_test1():
 
     if 'blue' in alien_color:
         print('You Just Earned 5 Points!')
-    # else:
-        # print('5-3b2 No Output ;P')
+    else:
+        print('5-3b2 No Output ;P')
 
 
 color_test1()
