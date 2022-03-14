@@ -106,5 +106,3 @@ def simple_add(value1, value2):
 if __name__ == '__main__':
     total = simple_add(12, 23)
     print(total)
-
-    
