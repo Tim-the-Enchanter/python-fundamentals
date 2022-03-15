@@ -21,21 +21,26 @@ pf.show_completed_models(completed_models)
 # 8-16. Imports: Using a program you wrote that has one function in it, store that function in a
 # separate file. Import the function into your main program file, and call the function using each
 # of these approaches:
-# import module_name
-# from module_name import function_name
-# from module_name import function_name as fn
-# import module_name as mn
-# from module_name import *
+# importing basic_function
+import basic_function
+basic_function.my_mood()
+# importing the function hello_world from basic_function
 
-# import happy
-# from happy import happy
-# from happy import express as fn
-# import happy as mn
+from basic_function import my_mood
+print(my_mood())
+# importing the function hello_ world and giving it the alias hw from the
+# basic function
 
+from basic_function import my_mood as mm
+print(mm())
+# importing the basic_function module and giving it the alias bf
 
-from happy import *
-print(express())
+import basic_function as bf
+bf.my_mood()
+# importing all functions from the module basic_function
 
+from basic_function import*
+print(my_mood())
 
 # 8-17. Styling Functions: Choose any three programs you wrote for this chapter, and make
 # sure they follow the styling guidelines described in this section.
@@ -43,7 +48,19 @@ print(express())
 
 print('2.On page 180 of your book, do 9-10 through 9-12')
 # 2.On page 180 of your book, do 9-10 through 9-12
+from restaurant import Restaurant
+dairy_queen = Restaurant('Dairy Queen', 'Ice Cream')
+dairy_queen.open_restaurant()
 
+#9-11
+from admin import Admin
+zayphod = Admin('zayphod', 'beeblebrox', 277, 'fifth@planet.org', 'black')
+zayphod.privileges()
+
+#9-12
+from admin import Admin
+zayphod = Admin('zayphod', 'beeblebrox', 277, 'fifth@planet.org', 'black')
+zayphod.privileges()
 
 print('3.On page 181 of your book, do 9-16 ')
 # 3.On page 181 of your book, do 9-16
