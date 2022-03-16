@@ -1,5 +1,4 @@
 # CAC-102-14 Exercise Testing Your Code
-
 print('\n1.On page 215 of your book, do 11-1')
 # 1.On page 215 of your book, do 11-1
 # 11-1. City, Country: Write a function that accepts two parameters: a city name and a country
@@ -10,7 +9,6 @@ print('\n1.On page 215 of your book, do 11-1')
 # test_city_country() to verify that calling your function with values such as 'santiago' and
 # 'chile' results in the correct string. Run test_cities.py, and make sure test_city_country()
 # passes.
-
 import unittest
 
 
