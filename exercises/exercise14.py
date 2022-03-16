@@ -67,15 +67,15 @@ class Employee:
 
 class TestEmployee(unittest.TestCase):
     def setUp(self):
-        self.lindsay = Employee('lindsay', 'cowin', 50000)
+        self.ryan = Employee('ryan', 'michelle', 50000)
 
     def test_raise(self):
-        self.lindsay.give_raise()
-        self.assertEqual(self.lindsay.salary, 55000)
+        self.ryan.give_raise()
+        self.assertEqual(self.ryan.salary, 55000)
 
     def test_custom_raise(self):
-        self.lindsay.give_raise(10000)
-        self.assertEqual(self.lindsay.salary, 60000)
+        self.ryan.give_raise(10000)
+        self.assertEqual(self.ryan.salary, 60000)
 
 
 if __name__ == '__main__':
